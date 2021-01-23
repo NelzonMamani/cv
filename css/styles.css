@@ -1,0 +1,38 @@
+/* ************************************ TAG SELECTORS ************************************ */
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 90%;
+}
+
+h1 {
+  color: #99b19c;
+}
+ 
+
+h3 {
+  color: #99b19c;
+}
+
+/* ************************************ CLASS SELECTORS ************************************ */
+/* class selectors are used to group elements. they override tag sellectors  */
+
+.profilePic {
+  height: 200px;
+}
+
+.urls {
+  color: gray;
+}
+
+/* ************************************ ID SELECTORS ************************************ */
+/* id selectors are used for specific elements. they override tag selectors  */
+#profileTittle {
+  color: #99b19c;
+}
